@@ -1,0 +1,50 @@
+header {
+    height: 100px;
+    background: lightpink;
+    font-size: 3rem;
+    margin: 5px;
+}
+
+h1 {
+    font-size: 1.25rem;
+}
+
+.box {
+    background: lightblue;
+    height: 75px;
+    width: 500px;
+    margin: 5px auto;
+}
+
+.box-title {
+    text-align: center;
+    padding-right: 5px;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: block;
+}
+
+.input-box {
+    width: 50px;
+    margin: 5px;
+    text-align: center;
+}
+
+.shadow {
+    background: lightblue;
+    box-shadow:2px 2px 2px darkblue;
+    border: none;
+    
+}
+
+.output {
+    margin-left: 5px;
+    padding: 0px 5px;
+}

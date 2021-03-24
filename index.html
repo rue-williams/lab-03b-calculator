@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="centered">My Calculator</header>
+    <div class="container">
+        <section class="centered box">
+            <h1 class="box-title">Addition:</h1>
+            <input class="input-box shadow" type="number" name="first-add" id="first-add"> 
+            <span id="add-symbol">+</span>
+            <input class="input-box shadow" type="number" name="second-add" id="second-add"> 
+            <input class="shadow" type="button" value="=" id="equal-add">
+            <p class="output shadow" id="sum"></p>
+        </section>
+        <section class="centered box">
+            <h1 class="box-title">Subtraction:</h1>
+            <input class="input-box shadow" type="number" name="first-sub" id="first-sub"> 
+            <span id="add-symbol"> -</span>
+            <input class="input-box shadow" type="number" name="second-sub" id="second-sub"> 
+            <input class="shadow" type="button" value="=" id="equal-minus">
+            <p class="output shadow" id="difference"></p>
+        </section>
+        <section class="centered box">
+            <h1 class="box-title">Multiplication:</h1>
+            <input class="input-box shadow" type="number" name="first-mult" id="first-mult"> 
+            <span id="add-symbol"> x </span>
+            <input class="input-box shadow" type="number" name="second-mult" id="second-mult"> 
+            <input class="shadow" type="button" value="=" id="equal-product">
+            <p class="output shadow" id="product"></p>
+        </section>
+        <section class="centered box">
+            <h1 class="box-title">Division:</h1>
+            <input class="input-box shadow" type="number" name="first-div" id="first-div"> 
+            <span id="add-symbol"> / </span>
+            <input class="input-box shadow" type="number" name="second-div" id="second-div"> 
+            <input class="shadow" type="button" value="=" id="equal-divide">
+            <p class="output shadow" id="quotient"></p>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
